@@ -1,8 +1,7 @@
-Python 3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> age = int(input())
-... if age > 14:
-...   print("Добро пожаловать!")
-... elif age < 14:
-...   print("Вам ещё рано!")
-... else:
+age = int(input())
+if age > 14:
+  print("Добро пожаловать!")
+elif age < 14:
+  print("Вам ещё рано!")
+else:
+  print("Вам 14 лет! Поздравляю!")
