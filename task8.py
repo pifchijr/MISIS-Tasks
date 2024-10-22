@@ -1,4 +1,4 @@
-text = "Шла Саша по шоссе и сосала сушку"
+text = input()
 vowels = "аеёиоуыэюя"
 count = 0
 for letter in text.lower():
